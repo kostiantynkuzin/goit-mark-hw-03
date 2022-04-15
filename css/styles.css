@@ -24,6 +24,9 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+img {
+  width: 100%;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -138,6 +141,7 @@ ol {
   background: var(--accent-color);
   cursor: pointer;
   padding: 10px 32px;
+  border-radius: 4px;
 }
 /* ----------------------------------------------description-------------------------------------------------*/
 .description {
@@ -201,6 +205,11 @@ ol {
 .team-image {
   margin-bottom: 30px;
 }
+.main-content {
+  border-top: 108px;
+  border-bottom: 270px;
+  border-radius: 4px;
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -261,6 +270,12 @@ ol {
 }
 .portfolio-list-link-btn {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.portfolio-item:not(:last-child) {
+  margin-right: 85px;
 }
 
 .portfolio-button: {
@@ -275,19 +290,36 @@ ol {
 .portfolio-button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  min-width: 73px;
+  height: 38px;
+  border-radius: 4px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-
+.portfolio-list-link {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+.portfolio-card-item {
+  width: calc(100% / 3-30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.img {
+  margin-bottom: 20px;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 .portfolio-text {
   font-family: inherit;
