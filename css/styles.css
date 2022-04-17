@@ -60,12 +60,12 @@ img {
 /* ----------------------------------------------header--------------------------------------------------- */
 .header {
   border-bottom: 1px solid #ececec;
- }
+}
 .header > .container {
   display: flex;
   align-items: center;
 }
-.container> .logo {
+.container > .logo {
   margin-right: 93px;
 }
 .logo {
@@ -95,7 +95,7 @@ img {
 .header-link {
   display: inline-block;
   padding: 32px 0;
-font-family: inherit;
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -126,7 +126,7 @@ font-family: inherit;
   text-align: center;
 }
 .hero-title {
- margin: auto;
+  margin: auto;
   width: 696px;
   margin-bottom: 30px;
   font-weight: 900;
@@ -135,7 +135,6 @@ font-family: inherit;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  
 }
 .hero-button {
   font-family: inherit;
@@ -216,7 +215,6 @@ font-family: inherit;
   margin-right: 30px;
 }
 
-
 .team-content {
   text-align: center;
   padding-top: 30px;
@@ -247,7 +245,6 @@ font-family: inherit;
   padding-bottom: 60px;
 }
 
-}
 .footer-list {
   display: inline-block;
 }
@@ -285,17 +282,16 @@ font-family: inherit;
 .portfolio-list-link-btn {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   margin-bottom: 50px;
 }
-.portfolio-item { 
+.portfolio-item {
   display: inline-block;
   align-items: center;
   text-align: center;
   padding: 6px 22px;
   border-radius: 4px;
   border: none;
- 
 }
 
 .portfolio-button.current {
@@ -303,8 +299,7 @@ font-family: inherit;
   background-color: var(--accent-color);
 }
 .portfolio-button: {
- 
-  
+  margin-right: 8px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -312,7 +307,6 @@ font-family: inherit;
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
-  
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -332,8 +326,8 @@ font-family: inherit;
 }
 
 .card-content {
- padding: 20px 24px;
- border: 1px solid #eee;
+  padding: 20px 24px;
+  border: 1px solid #eee;
 }
 .portfolio-title {
   margin-bottom: 4px;
