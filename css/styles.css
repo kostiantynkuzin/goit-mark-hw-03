@@ -279,38 +279,35 @@ img {
   padding-top: var(--section-size);
   padding-bottom: var(--section-size);
 }
-
-.portfolio-list-link-btn {
+.portfolio-list-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
 }
-.portfolio-item {
-  display: block;
-  align-items: center;
-  text-align: center;
-  padding: 6px 22px;
-  border-radius: 4px;
-  border: none;
+.portfolio-item:not(:last-child) {
+  margin-right: 8px;
 }
-
-.portfolio-button.current {
+.portfolio-item .button.current {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.portfolio-button: {
-  margin-right: 8px;
+.button {
+  display: inline-block;
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  text-decoration: none;
   letter-spacing: 0.03em;
   color: #212121;
+  background: #f5f4fa;
   cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 50px;
 }
-.portfolio-button:hover,
-.portfolio-button:focus {
+.button:hover,
+.button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
