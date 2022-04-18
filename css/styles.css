@@ -65,6 +65,10 @@ img {
   display: flex;
   align-items: center;
 }
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
 .container > .logo {
   margin-right: 93px;
 }
@@ -81,6 +85,9 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+}
+.logo {
+  margin-right: 93px;
 }
 .header-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -283,6 +290,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .portfolio-item:not(:last-child) {
   margin-right: 8px;
@@ -304,7 +312,7 @@ img {
   background: #f5f4fa;
   cursor: pointer;
   border-radius: 4px;
-  margin-bottom: 50px;
+  border: none;
 }
 .button:hover,
 .button:focus {
